@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookb.Details_Controller">
+   <children>
+      <Pane layoutX="302.0" layoutY="92.0" prefHeight="616.0" prefWidth="723.0" style="-fx-background-color: white; -fx-background-radius: 13;">
+         <children>
+            <Label alignment="CENTER" layoutY="-92.0" prefHeight="89.0" prefWidth="725.0" text="Book Information" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Book Oblique" size="53.0" />
+               </font>
+            </Label>
+            <Label fx:id="infoTitle" alignment="CENTER" layoutX="15.0" layoutY="29.0" prefHeight="91.0" prefWidth="352.0" text="Title">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="infoAuthor" alignment="CENTER" layoutX="15.0" layoutY="152.0" prefHeight="91.0" prefWidth="352.0" text="Author">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="BBauthor" alignment="CENTER" layoutX="356.0" layoutY="151.0" prefHeight="91.0" prefWidth="352.0" text="Author">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="BBtitle" alignment="CENTER" layoutX="355.0" layoutY="27.0" prefHeight="91.0" prefWidth="352.0" text="Title">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="photo" fitHeight="257.0" fitWidth="456.0" layoutX="140.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="returnMenu" layoutX="557.0" layoutY="553.0" mnemonicParsing="false" onAction="#returnstoMenu" onMouseClicked="#returnstoMenu" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: #FAF9F6;" text="Return">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.06118546798825264" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

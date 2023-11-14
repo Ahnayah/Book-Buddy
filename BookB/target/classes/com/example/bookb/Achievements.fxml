@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookb.Achievements">
+   <children>
+      <Pane layoutX="-1.0" layoutY="-4.0" prefHeight="706.0" prefWidth="198.0" style="-fx-background-color: #231942;">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5200764536857605" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Separator layoutX="1.0" layoutY="260.0" prefHeight="0.0" prefWidth="197.0" style="-fx-background-color: white;">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.1070745661854744" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Separator>
+            <Separator layoutX="1.0" layoutY="206.0" prefHeight="0.0" prefWidth="197.0" style="-fx-background-color: white;">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.1070745661854744" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Separator>
+            <Separator layoutX="1.0" layoutY="314.0" prefHeight="0.0" prefWidth="197.0" style="-fx-background-color: white;">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.11854684352874756" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Separator>
+            <Separator layoutX="1.0" layoutY="366.0" prefHeight="0.0" prefWidth="197.0" style="-fx-background-color: white;">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.11854684352874756" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Separator>
+            <Separator layoutX="1.0" layoutY="418.0" prefHeight="0.0" prefWidth="197.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="190.0" fitWidth="190.0" layoutX="3.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Book%20Buddy.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="7.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../profile.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="6.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../saved-items.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="5.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="4.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../settings.png" />
+               </image>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" layoutX="38.0" layoutY="264.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="160.0" style="-fx-background-color: transparent;" text="Library" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="c" alignment="BASELINE_LEFT" layoutX="38.0" layoutY="210.0" mnemonicParsing="false" onAction="#changeProfile" prefHeight="48.0" prefWidth="160.0" style="-fx-background-color: transparent;" text="Profile" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="39.0" layoutY="318.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="167.0" style="-fx-background-color: transparent;" text="Achievements" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="39.0" layoutY="370.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="162.0" style="-fx-background-color: transparent;" text="Settings" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="39.0" layoutY="422.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="153.0" style="-fx-background-color: transparent;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
